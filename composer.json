@@ -1,0 +1,51 @@
+{
+	"name": "jeffstieler/jeffstieler.com",
+	"description": "Source of jeffstieler.com",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Jeff Stieler",
+			"email": "jeff.m.stieler@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress/wordpress",
+				"type": "wordpress-plugin",
+				"version": "3.8.2",
+				"dist": {
+					"type": "zip",
+					"url": "https://github.com/WordPress/WordPress/archive/3.8.2.zip"
+				},
+				"require": {
+					"composer/installers": "~1.0"
+				}
+			}
+		}
+	],
+	"require": {
+		"wordpress/wordpress": "~3.8",
+		"wpackagist-theme/writr": "~1.0",
+		"wpackagist-plugin/memcached": "2.0.2",
+		"wpackagist-plugin/akismet": "~2.6",
+		"wpackagist-plugin/jetpack": "~2.9",
+		"wpackagist-plugin/nginx-helper": "~1.8",
+		"wpackagist-plugin/limit-login-attempts": "~1.7"
+	},
+	"extra": {
+		"installer-paths": {
+			"wp/": [
+				"wordpress/wordpress"
+			],
+			"wp-content/drop-ins/{$name}/": [
+				"wpackagist-plugin/memcached"
+			]
+		}
+	}
+}

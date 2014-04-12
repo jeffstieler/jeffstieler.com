@@ -1,0 +1,12 @@
+# composer controlled files
+/vendor
+/wp-content/plugins
+/wp-content/drop-ins
+/wp-content/mu-plugins
+/wp-content/themes/writr
+
+# wpms and wordpress files
+/wp
+/wp-config.php
+/wp-content/uploads/*
+/wp-content/cache/*
