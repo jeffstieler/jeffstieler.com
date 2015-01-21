@@ -22,11 +22,27 @@
 		{
 			"type": "composer",
 			"url": "http://wpackagist.org"
-		}
+		},
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "4.1",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/WordPress/WordPress.git",
+          "reference": "4.1"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "1.0.0"
+        }
+      }
+    }
 	],
 	"require": {
 		"php": ">=5.4",
-		"johnpbloch/wordpress": "4.1",
+		"wordpress/wordpress": "4.1",
 		"composer/installers": "v1.0.12",
 		"vlucas/phpdotenv": "1.0.9",
 		"wpackagist-theme/twentyfifteen": "~1.0"
@@ -37,6 +53,7 @@
 			"web/app/plugins/{$name}/": ["type:wordpress-plugin"],
 			"web/app/themes/{$name}/": ["type:wordpress-theme"]
 		},
-		"wordpress-install-dir": "web/wp"
+		"webroot-dir": "web/wp",
+		"webroot-package": "wordpress/wordpress"
 	}
 }
