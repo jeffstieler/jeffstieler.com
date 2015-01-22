@@ -1,13 +1,13 @@
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'jeffstieler.com'
+set :repo_url, 'git@github.com:jeffstieler/jeffstieler.com.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
-#ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
+ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Hardcodes branch to always be master
 # This could be overridden in a stage config file
-set :branch, :master
+# set :branch, :master
 
 set :deploy_to, -> { "/srv/www/#{fetch(:application)}" }
 
