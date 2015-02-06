@@ -8,44 +8,53 @@
 			"email": "jeff.m.stieler@gmail.com"
 		}
 	],
+	"config": {
+		"preferred-install": "dist",
+		"generate-salts": true
+	},
+	"autoload": {
+		"psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
+	},
+	"scripts": {
+		"post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
+	},
 	"repositories": [
 		{
 			"type": "composer",
 			"url": "http://wpackagist.org"
 		},
-		{
-			"type": "package",
-			"package": {
-				"name": "wordpress/wordpress",
-				"type": "wordpress-plugin",
-				"version": "3.8.2",
-				"dist": {
-					"type": "zip",
-					"url": "https://github.com/WordPress/WordPress/archive/3.8.2.zip"
-				},
-				"require": {
-					"composer/installers": "~1.0"
-				}
-			}
-		}
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress/wordpress",
+        "type": "webroot",
+        "version": "4.1",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/WordPress/WordPress.git",
+          "reference": "4.1"
+        },
+        "require": {
+          "fancyguy/webroot-installer": "1.0.0"
+        }
+      }
+    }
 	],
 	"require": {
-		"wordpress/wordpress": "~3.8",
-		"wpackagist-theme/writr": "~1.0",
-		"wpackagist-plugin/memcached": "2.0.2",
-		"wpackagist-plugin/akismet": "~2.6",
-		"wpackagist-plugin/jetpack": "~2.9",
-		"wpackagist-plugin/nginx-helper": "~1.8",
-		"wpackagist-plugin/limit-login-attempts": "~1.7"
+		"php": ">=5.4",
+		"wordpress/wordpress": "4.1",
+		"composer/installers": "v1.0.12",
+		"vlucas/phpdotenv": "1.0.9",
+		"wpackagist-theme/twentyfifteen": "~1.0",
+		"wpackagist-plugin/wordpress-importer": "~0.6"
 	},
 	"extra": {
 		"installer-paths": {
-			"wp/": [
-				"wordpress/wordpress"
-			],
-			"wp-content/drop-ins/{$name}/": [
-				"wpackagist-plugin/memcached"
-			]
-		}
+			"web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+			"web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+			"web/app/themes/{$name}/": ["type:wordpress-theme"]
+		},
+		"webroot-dir": "web/wp",
+		"webroot-package": "wordpress/wordpress"
 	}
 }
