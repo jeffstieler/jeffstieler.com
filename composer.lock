@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ece3a6e5ca9828a329b1daa182b3a41f",
+    "hash": "fedf3127d0bb3c0ce6753585a6716373",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,11 +185,11 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.1",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "4.1"
+                "reference": "4.2.1"
             },
             "require": {
                 "fancyguy/webroot-installer": "1.0.0"
@@ -238,15 +238,15 @@
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyfifteen/",
-                "reference": "1.0"
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/twentyfifteen.1.0.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -254,7 +254,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/twentyfifteen/"
+            "homepage": "https://wordpress.org/themes/twentyfifteen/"
         }
     ],
     "packages-dev": [],
