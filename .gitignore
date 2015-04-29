@@ -12,7 +12,7 @@ sql-dump-*.sql
 !.env.example
 
 # Application
-web/app/plugins
+web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins
 !web/app/mu-plugins/.gitkeep
@@ -24,6 +24,7 @@ web/app/uploads
 !web/app/mu-plugins/bedrock-autoloader.php
 web/app/themes/twentyfifteen
 web/app/drop-ins
+!web/app/plugins/wp-hide-category
 
 # Vendor (e.g. Composer)
 vendor
