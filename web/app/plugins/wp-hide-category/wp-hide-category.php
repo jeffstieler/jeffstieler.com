@@ -53,7 +53,7 @@ add_filter('plugin_action_links_'.plugin_basename(__FILE__), 'wp_hide_category_a
 function wp_hide_category($query) {  
 	if(!is_admin() && $query->is_main_query()) {
 		$wp_hide_category_hide_place = get_option('wp_hide_category_hide_place');
-		$category_hide = explode(',', get_option('wp_hide_category_id'));
+		$category_hide = get_option('wp_hide_category_id', array());
 		if(!empty( $wp_hide_category_hide_place)) {
 			foreach($wp_hide_category_hide_place as $template_name){
 				$call_name = 'is_' . $template_name;

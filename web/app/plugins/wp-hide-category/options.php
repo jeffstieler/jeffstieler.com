@@ -1,7 +1,7 @@
 <?php
 function wp_hide_category_register_settings() {
 	add_option('wp_hide_category_hide_place', array("front_page"));
-	add_option('wp_hide_category_id', '');
+	add_option('wp_hide_category_id', array());
 	register_setting('wp_hide_category_options', 'wp_hide_category_hide_place');
 	register_setting('wp_hide_category_options', 'wp_hide_category_id');
 }
@@ -61,7 +61,7 @@ function wp_hide_category_options_page() {
 				<tr valign="top">
 					<th scope="row"><label for="wp_hide_category_id"><?php _e("The Category ID that you want to hide: ", WP_HIDE_CATEGORY_TEXT_DOMAIN); ?></label></th>
 					<td>
-						<?php echo cat_list_recursive(0, get_option('wp_hide_category_id')) ?>
+						<?php echo cat_list_recursive(0, get_option('wp_hide_category_id', array())) ?>
 					</td>
 				</tr>
 			</table>
