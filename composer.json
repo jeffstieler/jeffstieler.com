@@ -18,6 +18,7 @@
 	"scripts": {
 		"post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
 	},
+	"minimum-stability": "dev",
 	"repositories": [
 		{
 			"type": "composer",
@@ -49,7 +50,8 @@
 		"wpackagist-plugin/wordpress-importer": "~0.6",
 		"wpackagist-plugin/memcached-redux": "~0.1.3",
 		"wpackagist-plugin/syntaxhighlighter": "~3.1.11",
-		"wpackagist-plugin/jetpack": "~3.5"
+		"wpackagist-plugin/jetpack": "~3.5",
+		"jeffstieler/rest-console-embed": "dev-master"
 	},
 	"extra": {
 		"installer-paths": {
