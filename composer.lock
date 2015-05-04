@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fedf3127d0bb3c0ce6753585a6716373",
+    "hash": "875793decbb00761bd0b1fbe732ac8ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -133,6 +133,65 @@
             "time": "2013-01-29 22:51:45"
         },
         {
+            "name": "jeffstieler/rest-api-console2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffstieler/rest-api-console2.git",
+                "reference": "bea1530da8a66af10ec2dd87f3838060b90a0392"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffstieler/rest-api-console2/zipball/bea1530da8a66af10ec2dd87f3838060b90a0392",
+                "reference": "bea1530da8a66af10ec2dd87f3838060b90a0392",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Stieler",
+                    "email": "jeff.m.stieler@gmail.com"
+                }
+            ],
+            "description": "Fork of Automattic/rest-api-console2, 'a better REST console'.",
+            "time": "2015-05-03 19:13:10"
+        },
+        {
+            "name": "jeffstieler/rest-console-embed",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffstieler/rest-console-embed.git",
+                "reference": "0ef59498990ee7fa6ede826322da3df85b573370"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffstieler/rest-console-embed/zipball/0ef59498990ee7fa6ede826322da3df85b573370",
+                "reference": "0ef59498990ee7fa6ede826322da3df85b573370",
+                "shasum": ""
+            },
+            "require": {
+                "jeffstieler/rest-api-console2": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Stieler",
+                    "email": "jeff.m.stieler@gmail.com"
+                }
+            ],
+            "description": "Shortcode embed of the WPCOM Rest Console",
+            "time": "2015-05-03 20:24:52"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v1.0.9",
             "source": {
@@ -197,6 +256,26 @@
             "type": "webroot"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "3.5.1-beta1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/3.5.1-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.5.1-beta1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
             "name": "wpackagist-plugin/memcached-redux",
             "version": "0.1.3",
             "source": {
@@ -206,7 +285,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/memcached-redux.0.1.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/memcached-redux.0.1.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -215,6 +294,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/memcached-redux/"
+        },
+        {
+            "name": "wpackagist-plugin/syntaxhighlighter",
+            "version": "3.1.11",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/syntaxhighlighter/",
+                "reference": "tags/3.1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/syntaxhighlighter.3.1.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/syntaxhighlighter/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
@@ -226,7 +325,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -259,8 +358,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "jeffstieler/rest-console-embed": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

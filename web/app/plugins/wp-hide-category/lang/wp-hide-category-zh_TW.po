@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Hide Category\n"
+"POT-Creation-Date: 2014-06-27 19:48+0800\n"
+"PO-Revision-Date: 2014-06-27 19:48+0800\n"
+"Last-Translator: Arefly <eflyjason@gmail.com>\n"
+"Language-Team: Arefly <eflyjason@gmail.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:11 options.php:50
+msgid "WP Hide Category Options Page"
+msgstr "WP Hide Category 設定頁面"
+
+#: options.php:11
+msgid "WP Hide Category"
+msgstr "WP Hide Category"
+
+#: options.php:53
+msgid "General Options"
+msgstr "一般設定"
+
+#: options.php:56
+msgid "Where do you want to hide the category?"
+msgstr "在哪些頁面隱藏分類："
+
+#: options.php:58
+msgid "Home"
+msgstr "首頁"
+
+#: options.php:58
+msgid "Post"
+msgstr "文章"
+
+#: options.php:58
+msgid "Page"
+msgstr "頁面"
+
+#: options.php:58
+msgid "Archive"
+msgstr "文章存檔頁面"
+
+#: options.php:58
+msgid "Search Result"
+msgstr "搜索結果頁面"
+
+#: options.php:62
+msgid "The Category ID that you want to hide: "
+msgstr "你想隱藏的分類ID："
+
+#: wp-hide-category.php:48
+msgid "Settings"
+msgstr "設定"
