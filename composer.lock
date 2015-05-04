@@ -166,12 +166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffstieler/rest-console-embed.git",
-                "reference": "b80fb86cd3d6d0dbb429c81191b6b11d2a7ae266"
+                "reference": "0ef59498990ee7fa6ede826322da3df85b573370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffstieler/rest-console-embed/zipball/b80fb86cd3d6d0dbb429c81191b6b11d2a7ae266",
-                "reference": "b80fb86cd3d6d0dbb429c81191b6b11d2a7ae266",
+                "url": "https://api.github.com/repos/jeffstieler/rest-console-embed/zipball/0ef59498990ee7fa6ede826322da3df85b573370",
+                "reference": "0ef59498990ee7fa6ede826322da3df85b573370",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +189,7 @@
                 }
             ],
             "description": "Shortcode embed of the WPCOM Rest Console",
-            "time": "2015-05-03 18:59:50"
+            "time": "2015-05-03 20:24:52"
         },
         {
             "name": "vlucas/phpdotenv",
