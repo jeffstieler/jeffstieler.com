@@ -1,0 +1,18 @@
+/*
+ Theme Name:   jeffstieler.com
+ Description:  Twenty Fifteen Child Theme for jeffstieler.com
+ Author:       Jeff Stieler
+ Author URI:   http://jeffstieler.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.entry-content .syntaxhighlighter {
+	font-size: .9em !important;
+}
+
+.rest-console {
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+}
