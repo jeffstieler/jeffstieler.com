@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c2f79ae8390d5001cb7a0ac0be3360b",
+    "hash": "91f4052bcc64cb1de722242b4ee79c5f",
     "packages": [
         {
             "name": "composer/installers",
@@ -238,15 +238,15 @@
         },
         {
             "name": "wpackagist-plugin/rest-console-embed",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/rest-console-embed/",
-                "reference": "tags/0.1.0"
+                "reference": "tags/0.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-console-embed.0.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-console-embed.0.1.1.zip",
                 "reference": null,
                 "shasum": null
             },

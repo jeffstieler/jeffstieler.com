@@ -51,7 +51,7 @@
 		"wpackagist-plugin/memcached-redux": "~0.1.3",
 		"wpackagist-plugin/syntaxhighlighter": "~3.1.11",
 		"wpackagist-plugin/jetpack": "~3.5",
-		"wpackagist-plugin/rest-console-embed": "~0.1.0"
+		"wpackagist-plugin/rest-console-embed": "~0.1.1"
 	},
 	"extra": {
 		"installer-paths": {
