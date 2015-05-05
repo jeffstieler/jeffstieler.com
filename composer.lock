@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "875793decbb00761bd0b1fbe732ac8ac",
+    "hash": "0c2f79ae8390d5001cb7a0ac0be3360b",
     "packages": [
         {
             "name": "composer/installers",
@@ -133,65 +133,6 @@
             "time": "2013-01-29 22:51:45"
         },
         {
-            "name": "jeffstieler/rest-api-console2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeffstieler/rest-api-console2.git",
-                "reference": "bea1530da8a66af10ec2dd87f3838060b90a0392"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeffstieler/rest-api-console2/zipball/bea1530da8a66af10ec2dd87f3838060b90a0392",
-                "reference": "bea1530da8a66af10ec2dd87f3838060b90a0392",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Stieler",
-                    "email": "jeff.m.stieler@gmail.com"
-                }
-            ],
-            "description": "Fork of Automattic/rest-api-console2, 'a better REST console'.",
-            "time": "2015-05-03 19:13:10"
-        },
-        {
-            "name": "jeffstieler/rest-console-embed",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeffstieler/rest-console-embed.git",
-                "reference": "0ef59498990ee7fa6ede826322da3df85b573370"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeffstieler/rest-console-embed/zipball/0ef59498990ee7fa6ede826322da3df85b573370",
-                "reference": "0ef59498990ee7fa6ede826322da3df85b573370",
-                "shasum": ""
-            },
-            "require": {
-                "jeffstieler/rest-api-console2": "dev-master"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Stieler",
-                    "email": "jeff.m.stieler@gmail.com"
-                }
-            ],
-            "description": "Shortcode embed of the WPCOM Rest Console",
-            "time": "2015-05-03 20:24:52"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v1.0.9",
             "source": {
@@ -296,6 +237,26 @@
             "homepage": "https://wordpress.org/plugins/memcached-redux/"
         },
         {
+            "name": "wpackagist-plugin/rest-console-embed",
+            "version": "0.1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/rest-console-embed/",
+                "reference": "tags/0.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-console-embed.0.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-console-embed/"
+        },
+        {
             "name": "wpackagist-plugin/syntaxhighlighter",
             "version": "3.1.11",
             "source": {
@@ -359,9 +320,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "jeffstieler/rest-console-embed": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
