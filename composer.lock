@@ -198,15 +198,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.5.1-beta1",
+            "version": "3.5.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.5.1-beta1"
+                "reference": "tags/3.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.5.1-beta1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -298,15 +298,15 @@
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyfifteen/",
-                "reference": "1.1"
+                "reference": "1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.1.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
