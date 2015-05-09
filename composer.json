@@ -29,11 +29,11 @@
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "4.2.1",
+        "version": "4.2.2",
         "source": {
           "type": "git",
           "url": "https://github.com/WordPress/WordPress.git",
-          "reference": "4.2.1"
+          "reference": "4.2.2"
         },
         "require": {
           "fancyguy/webroot-installer": "1.0.0"
@@ -43,7 +43,7 @@
 	],
 	"require": {
 		"php": ">=5.4",
-		"wordpress/wordpress": "4.2.1",
+		"wordpress/wordpress": "4.2.2",
 		"composer/installers": "v1.0.12",
 		"vlucas/phpdotenv": "1.0.9",
 		"wpackagist-theme/twentyfifteen": "~1.0",

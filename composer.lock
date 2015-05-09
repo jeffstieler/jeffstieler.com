@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "91f4052bcc64cb1de722242b4ee79c5f",
+    "hash": "c97b06a9ed8ac54678a5b5243be61396",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,11 +185,11 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "4.2.1"
+                "reference": "4.2.2"
             },
             "require": {
                 "fancyguy/webroot-installer": "1.0.0"
