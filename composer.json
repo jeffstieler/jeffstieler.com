@@ -22,25 +22,53 @@
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "4.9.2",
+        "version": "4.9.5",
         "source": {
           "type": "git",
           "url": "https://github.com/WordPress/WordPress.git",
-          "reference": "4.9.2"
+          "reference": "4.9.5"
         },
         "require": {
           "fancyguy/webroot-installer": "1.1.0"
         }
       }
-    }
+    },
+		{
+			"type": "package",
+			"package": {
+				"name": "wp-sync-db/wp-sync-db",
+				"type": "wordpress-plugin",
+				"version": "master",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/wp-sync-db/wp-sync-db.git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wp-sync-db/wp-sync-db-media-files",
+				"type": "wordpress-plugin",
+				"version": "master",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+					"reference": "master"
+				}
+			}
+		}
 	],
 	"require": {
 		"php": ">=5.6",
 		"composer/installers": "^1.4",
 		"vlucas/phpdotenv": "^2.0.1",
-		"wordpress/wordpress": "4.9.2",
+		"wordpress/wordpress": "4.9.5",
 		"oscarotero/env": "^1.1.0",
 		"roots/wp-password-bcrypt": "1.0.0",
+		"wp-sync-db/wp-sync-db": "*",
+		"wp-sync-db/wp-sync-db-media-files": "*",
 		"wpackagist-theme/twentyfifteen": "~1.9",
 		"wpackagist-plugin/wordpress-importer": "~0.6.3",
 		"wpackagist-plugin/memcached-redux": "~0.1.6",
@@ -67,5 +95,6 @@
     "test": [
       "phpcs"
     ]
-	}
+	},
+	"minimum-stability": "dev"
 }
