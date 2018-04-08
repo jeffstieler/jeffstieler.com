@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e540f48997f1c679c99a2bf3e071aa4c",
+    "content-hash": "7b66127b82fd76be6cab09c9b135f4c0",
     "packages": [
         {
             "name": "composer/installers",
@@ -331,38 +331,16 @@
             "type": "webroot"
         },
         {
-            "name": "wp-sync-db/wp-sync-db",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-04-24T08:56:12+00:00"
-        },
-        {
-            "name": "wp-sync-db/wp-sync-db-media-files",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-03-07T16:34:12+00:00"
-        },
-        {
             "name": "wpackagist-plugin/jetpack",
-            "version": "5.7.1",
+            "version": "6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/5.7.1"
+                "reference": "tags/6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.5.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.6.0.zip",
                 "reference": null,
                 "shasum": null
             },

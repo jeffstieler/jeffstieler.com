@@ -32,33 +32,7 @@
           "fancyguy/webroot-installer": "1.1.0"
         }
       }
-    },
-		{
-			"type": "package",
-			"package": {
-				"name": "wp-sync-db/wp-sync-db",
-				"type": "wordpress-plugin",
-				"version": "master",
-				"source": {
-					"type": "git",
-					"url": "https://github.com/wp-sync-db/wp-sync-db.git",
-					"reference": "master"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "wp-sync-db/wp-sync-db-media-files",
-				"type": "wordpress-plugin",
-				"version": "master",
-				"source": {
-					"type": "git",
-					"url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
-					"reference": "master"
-				}
-			}
-		}
+    }
 	],
 	"require": {
 		"php": ">=5.6",
@@ -67,13 +41,11 @@
 		"wordpress/wordpress": "4.9.5",
 		"oscarotero/env": "^1.1.0",
 		"roots/wp-password-bcrypt": "1.0.0",
-		"wp-sync-db/wp-sync-db": "*",
-		"wp-sync-db/wp-sync-db-media-files": "*",
 		"wpackagist-theme/twentyfifteen": "~1.9",
 		"wpackagist-plugin/wordpress-importer": "~0.6.3",
 		"wpackagist-plugin/memcached-redux": "~0.1.6",
 		"wpackagist-plugin/syntaxhighlighter": "~3.2.1",
-		"wpackagist-plugin/jetpack": "~5.7.1",
+		"wpackagist-plugin/jetpack": "~6.0",
 		"wpackagist-plugin/rest-console-embed": "~0.1.1"
 	},
 	"extra": {
