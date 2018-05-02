@@ -46,7 +46,8 @@
 		"wpackagist-plugin/memcached-redux": "~0.1.6",
 		"wpackagist-plugin/syntaxhighlighter": "~3.2.1",
 		"wpackagist-plugin/jetpack": "~6.0",
-		"wpackagist-plugin/rest-console-embed": "~0.1.1"
+		"wpackagist-plugin/rest-console-embed": "~0.1.1",
+		"wpackagist-plugin/vaultpress": "dev-trunk"
 	},
 	"extra": {
 		"installer-paths": {
