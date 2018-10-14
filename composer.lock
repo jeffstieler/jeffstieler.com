@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "67b29853f813b3ed841ded8971af1b8d",
+    "content-hash": "5d7a684c6e2d0975691eb8b8f7e55d4e",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "049797d727261bf27f2690430d935067710049c2"
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
-                "reference": "049797d727261bf27f2690430d935067710049c2",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
                 "shasum": ""
             },
             "require": {
@@ -124,7 +124,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29T09:13:20+00:00"
+            "time": "2018-08-27T06:10:37+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -273,12 +273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "fe2a5c22c94949983be10263417f47f8551d5946"
+                "reference": "54d599d414f8cf3f6129e287acaf44b610486aa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/fe2a5c22c94949983be10263417f47f8551d5946",
-                "reference": "fe2a5c22c94949983be10263417f47f8551d5946",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/54d599d414f8cf3f6129e287acaf44b610486aa1",
+                "reference": "54d599d414f8cf3f6129e287acaf44b610486aa1",
                 "shasum": ""
             },
             "require": {
@@ -315,15 +315,15 @@
                 "env",
                 "environment"
             ],
-            "time": "2018-03-19T21:27:48+00:00"
+            "time": "2018-08-22T19:34:05+00:00"
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.9.5",
+            "version": "4.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "4.9.5"
+                "reference": "4.9.8"
             },
             "require": {
                 "fancyguy/webroot-installer": "1.1.0"
@@ -332,15 +332,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "6.0",
+            "version": "6.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/6.0"
+                "reference": "tags/6.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.6.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.6.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
