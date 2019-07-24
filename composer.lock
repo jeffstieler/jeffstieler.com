@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f67bf4784a3fd83ef986101d9594c123",
+    "content-hash": "1d6b80bfeae6651a1c94111c4962c971",
     "packages": [
         {
             "name": "composer/installers",
@@ -167,6 +167,28 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15T17:51:14+00:00"
+        },
+        {
+            "name": "jeffstieler/trawell",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:jeffstieler/trawell.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme",
+            "time": "2019-07-24T05:10:32+00:00"
+        },
+        {
+            "name": "meks/trawell-buddy",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://mekshq.com/static/plugins/trawell-buddy.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "oscarotero/env",
@@ -467,6 +489,26 @@
             "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
+            "name": "wpackagist-plugin/meks-easy-maps",
+            "version": "1.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/meks-easy-maps/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/meks-easy-maps.zip?timestamp=1557216756",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/meks-easy-maps/"
+        },
+        {
             "name": "wpackagist-plugin/memcached-redux",
             "version": "0.1.6",
             "source": {
@@ -485,6 +527,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/memcached-redux/"
+        },
+        {
+            "name": "wpackagist-plugin/redux-framework",
+            "version": "3.6.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redux-framework/",
+                "reference": "tags/3.6.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redux-framework.3.6.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redux-framework/"
         },
         {
             "name": "wpackagist-plugin/rest-console-embed",

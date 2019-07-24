@@ -17,22 +17,48 @@
 			"type": "composer",
 			"url": "https://wpackagist.org"
 		},
-    {
-      "type": "package",
-      "package": {
-        "name": "wordpress/wordpress",
-        "type": "webroot",
-        "version": "5.2.2",
-        "source": {
-          "type": "git",
-          "url": "https://github.com/WordPress/WordPress.git",
-          "reference": "5.2.2"
-        },
-        "require": {
-          "fancyguy/webroot-installer": "1.1.0"
-        }
-      }
-    }
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress/wordpress",
+				"type": "webroot",
+				"version": "5.2.2",
+				"source": {
+				"type": "git",
+				"url": "https://github.com/WordPress/WordPress.git",
+				"reference": "5.2.2"
+				},
+				"require": {
+				"fancyguy/webroot-installer": "1.1.0"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "jeffstieler/trawell",
+				"type": "wordpress-theme",
+				"version": "master",
+				"source": {
+					"type": "git",
+					"url": "git@github.com:jeffstieler/trawell.git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "meks/trawell-buddy",
+				"type": "wordpress-plugin",
+				"version": "master",
+				"dist": {
+					"type": "zip",
+					"url": "https://mekshq.com/static/plugins/trawell-buddy.zip",
+					"reference": "master"
+				}
+			}
+		}
 	],
 	"require": {
 		"php": ">=7.3",
@@ -47,7 +73,11 @@
 		"wpackagist-plugin/syntaxhighlighter": "~3.2.1",
 		"wpackagist-plugin/jetpack": "~7.5.3",
 		"wpackagist-plugin/rest-console-embed": "~0.1.1",
-		"wpackagist-plugin/vaultpress": "dev-trunk"
+		"wpackagist-plugin/vaultpress": "dev-trunk",
+		"jeffstieler/trawell": "*",
+		"wpackagist-plugin/meks-easy-maps": "1.1.5",
+		"wpackagist-plugin/redux-framework": "3.6.15",
+		"meks/trawell-buddy": "*"
 	},
 	"extra": {
 		"installer-paths": {

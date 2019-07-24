@@ -25,6 +25,7 @@ web/app/uploads
 web/app/themes/twentyfifteen
 web/app/drop-ins
 !web/app/plugins/wp-hide-category
+web/app/themes/trawell
 
 # Vendor (e.g. Composer)
 vendor
