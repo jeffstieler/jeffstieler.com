@@ -77,7 +77,8 @@
 		"jeffstieler/trawell": "*",
 		"wpackagist-plugin/meks-easy-maps": "1.1.5",
 		"wpackagist-plugin/redux-framework": "3.6.15",
-		"meks/trawell-buddy": "*"
+		"meks/trawell-buddy": "*",
+		"roots/multisite-url-fixer": "1.1.0"
 	},
 	"extra": {
 		"installer-paths": {
