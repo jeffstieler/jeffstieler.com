@@ -41,6 +41,7 @@
 		"wordpress/wordpress": "5.2.3",
 		"oscarotero/env": "^1.1.0",
 		"roots/wp-password-bcrypt": "1.0.0",
+		"wpackagist-theme/twentyfifteen":"2.5",
 		"wpackagist-theme/twentynineteen": "1.4",
 		"wpackagist-plugin/wordpress-importer": "~0.6.4",
 		"wpackagist-plugin/memcached-redux": "~0.1.6",
