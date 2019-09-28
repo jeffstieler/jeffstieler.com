@@ -22,63 +22,34 @@
 			"package": {
 				"name": "wordpress/wordpress",
 				"type": "webroot",
-				"version": "5.2.2",
+				"version": "5.2.3",
 				"source": {
 				"type": "git",
 				"url": "https://github.com/WordPress/WordPress.git",
-				"reference": "5.2.2"
+				"reference": "5.2.3"
 				},
 				"require": {
 				"fancyguy/webroot-installer": "1.1.0"
 				}
 			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "jeffstieler/trawell",
-				"type": "wordpress-theme",
-				"version": "master",
-				"source": {
-					"type": "git",
-					"url": "git@github.com:jeffstieler/trawell.git",
-					"reference": "master"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "meks/trawell-buddy",
-				"type": "wordpress-plugin",
-				"version": "master",
-				"dist": {
-					"type": "zip",
-					"url": "https://mekshq.com/static/plugins/trawell-buddy.zip",
-					"reference": "master"
-				}
-			}
 		}
 	],
 	"require": {
-		"php": ">=7.3",
+		"php": ">=7.1",
 		"composer/installers": "^1.6",
 		"vlucas/phpdotenv": "^3.4.0",
-		"wordpress/wordpress": "5.2.2",
+		"wordpress/wordpress": "5.2.3",
 		"oscarotero/env": "^1.1.0",
 		"roots/wp-password-bcrypt": "1.0.0",
-		"wpackagist-theme/twentyfifteen": "~2.5",
+		"wpackagist-theme/twentynineteen": "1.4",
 		"wpackagist-plugin/wordpress-importer": "~0.6.4",
 		"wpackagist-plugin/memcached-redux": "~0.1.6",
 		"wpackagist-plugin/syntaxhighlighter": "~3.2.1",
-		"wpackagist-plugin/jetpack": "~7.5.3",
+		"wpackagist-plugin/jetpack": "~7.7.2",
 		"wpackagist-plugin/rest-console-embed": "~0.1.1",
 		"wpackagist-plugin/vaultpress": "dev-trunk",
-		"jeffstieler/trawell": "*",
-		"wpackagist-plugin/meks-easy-maps": "1.1.5",
-		"wpackagist-plugin/redux-framework": "3.6.15",
-		"meks/trawell-buddy": "*",
-		"roots/multisite-url-fixer": "1.1.0"
+		"roots/multisite-url-fixer": "1.1.0",
+		"wpackagist-plugin/novo-map":"1.0.9"
 	},
 	"extra": {
 		"installer-paths": {

@@ -22,10 +22,9 @@ web/app/uploads
 !web/app/mu-plugins/disallow-indexing.php
 !web/app/mu-plugins/register-theme-directory.php
 !web/app/mu-plugins/bedrock-autoloader.php
-web/app/themes/twentyfifteen
+web/app/themes/twentynineteen
 web/app/drop-ins
 !web/app/plugins/wp-hide-category
-web/app/themes/trawell
 
 # Vendor (e.g. Composer)
 vendor
